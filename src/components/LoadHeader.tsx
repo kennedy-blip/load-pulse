@@ -1,4 +1,4 @@
-import { Activity, Zap, Trash2, Radio, ShieldCheck } from 'lucide-react';
+import { Activity, Zap, Trash2, ShieldCheck } from 'lucide-react';
 type Props = { running: boolean; onFire: () => void; onClear: () => void };
 export default function LoadHeader({ running, onFire, onClear }: Props) {
   return <header className="topbar"><div className="brand"><div className="brand-mark"><Activity size={21}/></div><div><div className="brand-name">load<span>pulse</span></div><div className="brand-sub">PERFORMANCE STUDIO <i>•</i> v1.0.0</div></div></div>
